@@ -47,6 +47,13 @@ const line4 = document.getElementById('line4Content');
 const line5 = document.getElementById('line5Content');
 const line6 = document.getElementById('line6Content');
 
+//tweetボタン取得
+const tweetButton = document.getElementById('tweet-button');
+
+tweetButton.onclick = () => {
+   
+    console.log('pushed');
+}
 
 //配列の宣言
 
