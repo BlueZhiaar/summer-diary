@@ -1,0 +1,224 @@
+/**画像の設定**/
+#me-art{
+    position: absolute;
+    visibility: visible;
+    top: 100px;
+    left: 300px;
+    z-index: 0;
+    width: 250px;
+    height: 250px;
+    
+}
+#me-art{
+    visibility: visible;
+}
+#taiyo-art{
+    visibility: hidden;
+}
+#moon-art{
+    visibility: hidden;
+}
+#okaasande-art{
+    visibility: hidden;
+}
+#otousande-art{
+    visibility: hidden;
+}
+#gohan-art{
+    visibility: hidden;
+}
+#hoga-oji-art{
+    visibility: hidden;
+}
+#sinseki-art{
+    visibility: hidden;
+}
+#suizoku-art{
+    visibility: hidden;
+}
+#tanoshi-art{
+    visibility: hidden;
+}
+#motorshow-art{
+    visibility: hidden;
+}
+#santyou-art{
+    visibility: hidden;
+}
+#tikasuimyaku-art{
+    visibility: hidden;
+}
+#sleep-art{
+    visibility: hidden;
+}
+#dance-art{
+    visibility: hidden;
+}
+#balance-art{
+    visibility: hidden;
+}
+#sleepy-art{
+    visibility: hidden;
+}
+#full-art{
+    visibility: hidden;
+}
+#tomorrow-art{
+    visibility: hidden;
+}
+/*
+ <img class="center-top" id="sleepy-art" src="images/sleepy.svg" alt="">
+          <img class="center-top" id="full-art" src="images/full.svg" alt="">
+          <img class="center-top" id="tomorrow-art" src="images/tomorrow.svg" alt=""> 
+*/
+
+/*bodyの設定*/
+body{
+    background-color: #e0ebaf;
+}
+/*画像を非表示で一度読み込む*/
+.first-read{
+    display: none;
+}
+
+.flex-box{
+    display: flex;
+    align-items: center;
+}
+.input-box{
+    height: 50px;
+    width: 50px;
+    margin: 20px;
+}
+#child-space{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-fp{
+    position: relative;
+}
+#second-child-space{
+    display: none;
+    justify-content: center;
+}
+#enikki-space{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(0,0,0);
+    width: 600px;
+    height: 700px;
+    margin: 10px;
+}
+
+#top-space{
+    position: relative;
+    background-color: rgb(255,255,255);
+    border: 2px solid rgb(0,0,0);
+    width: 580px;
+    height: 340px;
+    margin: 10px;
+    top: 5px;
+    left: 2px;
+    right: 20px;
+    z-index: 0;
+}
+
+
+#buttom-space{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(255,255,255);
+    width: 580px;
+    height: 340px;
+    margin: 10px;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+}
+.lines{
+    position: relative;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgb(0,0,0);
+    width: 112px;
+    height: 338px;
+    border-left: 2px solid rgb(0,0,0);
+    border-bottom: 2px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
+#line6{
+    border-left: 0.5px solid rgb(0,0,0);
+}
+
+#line5{
+    border-left: 0.5px solid rgb(0,0,0);
+    border-right: 0.5px solid rgb(0,0,0);
+}
+#line4{
+    border-left: 0.5px solid rgb(0,0,0);
+    border-right: 0.5px solid rgb(0,0,0);
+}
+#line3{
+    border-left: 0.5px solid rgb(0,0,0);
+    border-right: 0.5px solid rgb(0,0,0);
+}
+#line2{
+    border-left: 0.5px solid rgb(0,0,0);
+    border-right: 0.5px solid rgb(0,0,0);
+}
+
+.right-top{
+    position: absolute;
+    visibility: visible;
+    top: -20px;
+    left: 400px;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    
+}
+
+.center-left-person{
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+    width: 250px;
+    height: 250px;
+    top: 100px;
+    left: 150px;
+}
+.left-bottom{
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+    width: 200px;
+    height: 250px;
+    top: 100px;
+    left: -20px;
+}
+.right-bottom{
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+    width: 200px;
+    height: 250px;
+    top: 100px;
+    left: 400px;
+}
+.center-top{
+    position: absolute;
+    visibility: visible;
+    z-index: 1;
+    width: 200px;
+    height: 250px;
+    top: -80px;
+    left: 150px;
+}
