@@ -124,9 +124,13 @@ writeButton.onclick = () => {
     visibleArt(naniwoshimashitaResult);
     visibleArt(doudeshitaResult);
     //test
-    console.log(itsu[0][1]);
+    //console.log(itsu[0][1]);
    
     console.log(itsuResult);
+    console.log(daredeResult);
+    console.log(dokoniitteResult);
+    console.log(naniwoshimashitaResult);
+    console.log(doudeshitaResult);
 }
 
 /**
