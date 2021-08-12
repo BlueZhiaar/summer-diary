@@ -159,3 +159,13 @@ function visibleArt(selectedElement){
 /*console.log(getArtIdName(rightTop));
 getArtIdName(rightTop).style.visibility = 'visible';
 */
+
+/**
+ * TODO ツイートボタン
+ * TODO　画像サイズの調整
+ * TODO　ツイートボタンにスクショをつける
+ * TODO　フォントを手書き風に変更
+ * TODO　夏休み期間外や半角数字以外ではエラーを出す
+ * TODO　一人称に半角英数を受け付けない
+ *
+ */
