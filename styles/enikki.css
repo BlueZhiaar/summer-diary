@@ -148,6 +148,7 @@ body{
 }
 .sentence{
     font-family: 'Hachi Maru Pop', cursive;
+    font-size: 23px;
 }
 .lines{
     position: relative;
