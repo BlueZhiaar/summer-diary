@@ -172,5 +172,6 @@ getArtIdName(rightTop).style.visibility = 'visible';
  * TODO　一人称に半角英数を受け付けない
  * TODO　薄い絵を濃く書き直す
  * TODO　文字を大きくする
+ * TODO 絵日記の線を整える
  *　TODO ファビコン
  */
