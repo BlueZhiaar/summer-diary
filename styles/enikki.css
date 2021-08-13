@@ -231,3 +231,9 @@ body{
     top: -20px;
     left: 150px;
 }
+.twitter-hashtag-button{
+    visibility: visible;
+}
+#enikki-space{
+    visibility: visible;
+}

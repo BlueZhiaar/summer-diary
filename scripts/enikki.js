@@ -47,13 +47,9 @@ const line4 = document.getElementById('line4Content');
 const line5 = document.getElementById('line5Content');
 const line6 = document.getElementById('line6Content');
 
-//tweetボタン取得
-const tweetButton = document.getElementById('tweet-button');
+//tweet-spaceの取得
+const tweetSpace = document.getElementById('tweet-space');
 
-tweetButton.onclick = () => {
-   
-    console.log('pushed');
-}
 
 //配列の宣言
 
@@ -95,6 +91,9 @@ const test = document.createElement('h3');
 test.innerText = 'testだよ';
 mainSpace.appendChild(test);
 */
+
+
+
 
 writeButton.onclick = () => {
     console.log('押された');
@@ -138,6 +137,27 @@ writeButton.onclick = () => {
     console.log(dokoniitteResult);
     console.log(naniwoshimashitaResult);
     console.log(doudeshitaResult);
+
+
+    //TODO ツイートエリアの作成
+tweetSpace.innerText = "";
+const anchor = document.createElement('a');
+const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag=' + 
+encodeURIComponent('夏休みの絵日記ジェネレーター') + 
+'&ref_src=twsrc%5Etfw';
+
+
+anchor.setAttribute('href',hrefValue);
+anchor.className = 'twitter-hashtag-button';
+anchor.setAttribute('data-text','夏休みの絵日記の文章');
+anchor.innerText = 'Tweet #夏休みの絵日記ジェネレーター';
+tweetSpace.appendChild(anchor);
+
+//widgets.jsの設定
+const s = document.createElement('script');
+s.setAttribute('src','https://platform.twitter.com/widgets.js');
+tweetSpace.appendChild(s);
+console.log(s);
 }
 
 /**
@@ -172,9 +192,9 @@ getArtIdName(rightTop).style.visibility = 'visible';
 */
 
 /**
- * TODO ツイートボタン
  * TODO　画像サイズの調整
  * TODO　ツイートボタンにスクショをつける
+ * TODO　OGP（Open Graph Protocol、オープン・グラフ・プロトコル）の設定
  * TODO　夏休み期間外や半角数字以外ではエラーを出す
  * TODO　一人称に半角英数を受け付けない
  * TODO　薄い絵を濃く書き直す
