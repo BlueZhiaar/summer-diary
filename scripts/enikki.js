@@ -213,8 +213,7 @@ getArtIdName(rightTop).style.visibility = 'visible';
  * TODO　画像サイズの調整
  * TODO　ツイートボタンにスクショをつける
  * TODO　OGP（Open Graph Protocol、オープン・グラフ・プロトコル）の設定
- * TODO　夏休み期間外や半角数字以外ではエラーを出す
- * TODO　一人称に半角英数を受け付けない
+ * TODO　半角数字以外ではエラーを出す
  * TODO　薄い絵を濃く書き直す
  * TODO　文字を大きくする
  * TODO 絵日記の線を整える
