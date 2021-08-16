@@ -167,7 +167,7 @@ encodeURIComponent('夏休みの絵日記ジェネレーター') +
 anchor.setAttribute('href',hrefValue);
 anchor.className = 'twitter-hashtag-button';
 anchor.setAttribute('data-text',result);
-anchor.setAttribute('data-hashtags','夏休みの絵日記ジェネレーター');
+anchor.setAttribute('data-hashtags','ジェネレーター');
 anchor.innerText = 'Tweet #夏休みの絵日記ジェネレーター';
 tweetSpace.appendChild(anchor);
 
