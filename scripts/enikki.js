@@ -92,7 +92,10 @@ test.innerText = 'testだよ';
 mainSpace.appendChild(test);
 */
 
-
+//リロード
+function doReload(){
+    window.location.reload();
+}
 
 
 writeButton.onclick = () => {
@@ -104,6 +107,12 @@ writeButton.onclick = () => {
     if(month.length === 0 || day.length === 0 || inputfp.value.length === 0){
         //入力が空の時は処理を終了する
         console.log('空です');
+        return;
+    }
+    if(month.match(/^[0-9]*$/) && day.match(/^[0-9]*$/)){
+        console.log('月日は半角数字');
+    }else{
+        alert('月日は半角数字で入力してください');
         return;
     }
     //子要素を削除
@@ -146,14 +155,19 @@ writeButton.onclick = () => {
     //TODO ツイートエリアの作成
 tweetSpace.innerText = "";
 const anchor = document.createElement('a');
+
 const hrefValue = 'https://twitter.com/intent/tweet?button_hashtag=' + 
 encodeURIComponent('夏休みの絵日記ジェネレーター') + 
 '&ref_src=twsrc%5Etfw';
 
 
+
+
+
 anchor.setAttribute('href',hrefValue);
 anchor.className = 'twitter-hashtag-button';
 anchor.setAttribute('data-text',result);
+anchor.setAttribute('data-hashtags','夏休みの絵日記ジェネレーター');
 anchor.innerText = 'Tweet #夏休みの絵日記ジェネレーター';
 tweetSpace.appendChild(anchor);
 
