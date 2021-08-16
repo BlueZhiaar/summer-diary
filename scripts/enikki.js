@@ -96,6 +96,7 @@ mainSpace.appendChild(test);
 
 
 writeButton.onclick = () => {
+    let result;
     console.log('押された');
     const month = inputMonth.value;
     const day = inputDay.value;
@@ -123,6 +124,9 @@ writeButton.onclick = () => {
     line3.innerText = dokoniitteResult[0];
     line2.innerText = naniwoshimashitaResult[0];
     line1.innerText = doudeshitaResult[0];
+    //結果を格納
+    result = month + '月' + day + '日' + itsuResult[0] + im + daredeResult[0] + dokoniitteResult[0] +  naniwoshimashitaResult[0] + doudeshitaResult[0];
+    //TODO　ツイートにresultを入れる
     //画像を表示
     visibleArt(itsuResult);
     visibleArt(daredeResult);
@@ -149,7 +153,7 @@ encodeURIComponent('夏休みの絵日記ジェネレーター') +
 
 anchor.setAttribute('href',hrefValue);
 anchor.className = 'twitter-hashtag-button';
-anchor.setAttribute('data-text','夏休みの絵日記の文章');
+anchor.setAttribute('data-text',result);
 anchor.innerText = 'Tweet #夏休みの絵日記ジェネレーター';
 tweetSpace.appendChild(anchor);
 
