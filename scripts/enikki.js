@@ -39,6 +39,7 @@ const balanceArt = document.getElementById('balance-art');
 const sleepyArt = document.getElementById('sleepy-art');
 const fullArt = document.getElementById('full-art');
 const tomorrowArt = document.getElementById('tomorrow-art');
+const doujouArt = document.getElementById('doujou-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -77,7 +78,10 @@ const naniwoshimashita = [
     ['ごはんを食べました。',gohanArt],
     ['たっぷり寝ました。',sleepArt],
     ['おどりました。',danceArt],
-    ['バランスをとるれんしゅうをしました。',balanceArt]
+    ['バランスをとるれんしゅうをしました。',balanceArt],
+    //TODO　どうじょうやぶりをしました
+    ['どうじょうやぶりをしました。',doujouArt]
+
 ]
 const doudeshita = [
     ['たのしかったです。',tanoshiArt],
