@@ -40,6 +40,7 @@ const sleepyArt = document.getElementById('sleepy-art');
 const fullArt = document.getElementById('full-art');
 const tomorrowArt = document.getElementById('tomorrow-art');
 const doujouArt = document.getElementById('doujou-art');
+const omawarisandeArt = document.getElementById('omawarisande-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -70,7 +71,8 @@ const darede = [
     ['おかあさんで、',okaasandeArt],
     ['おとうさんで、',otousandeArt],
     ['しんせきのひとたちで、',sinsekiArt],
-    ['ほがらかなおじさんで、',hogaOjiArt]
+    ['ほがらかなおじさんで、',hogaOjiArt],
+    ['おまわりさんで',omawarisandeArt]
 ]
 const dokoniitte = [
     ['すいぞくかんにいって',suizokuArt],
