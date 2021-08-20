@@ -242,3 +242,10 @@ body{
 #enikki-space{
     visibility: visible;
 }
+#reload-button{
+    position: absolute;
+    height: 50px;
+    width: 100px;
+    top: 700px;
+    left: 1200px;
+}

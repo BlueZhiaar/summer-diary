@@ -51,6 +51,9 @@ const line6 = document.getElementById('line6Content');
 //tweet-spaceの取得
 const tweetSpace = document.getElementById('tweet-space');
 
+//reload-buttonの取得
+const reloadButton = document.getElementById('reload-button');
+
 
 //配列の宣言
 
@@ -101,6 +104,10 @@ function doReload(){
     window.location.reload();
 }
 
+reloadButton.onclick = () => {
+    doReload();
+}
+
 
 writeButton.onclick = () => {
     let result;
@@ -111,6 +118,7 @@ writeButton.onclick = () => {
     if(month.length === 0 || day.length === 0 || inputfp.value.length === 0){
         //入力が空の時は処理を終了する
         console.log('空です');
+        alert('空欄があります');
         return;
     }
     if(month.match(/^[0-9]*$/) && day.match(/^[0-9]*$/)){
