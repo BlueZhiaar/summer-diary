@@ -56,6 +56,7 @@ const reloadButton = document.getElementById('reload-button');
 
 
 //配列の宣言
+//。入れず15文字まで
 
 const itsu = [
     ['きょうは、',taiyoArt],
@@ -81,7 +82,7 @@ const naniwoshimashita = [
     ['ごはんを食べました。',gohanArt],
     ['たっぷり寝ました。',sleepArt],
     ['おどりました。',danceArt],
-    ['バランスをとるれんしゅうをしました。',balanceArt],
+    ['バランスをとりました。',balanceArt],
     //TODO　どうじょうやぶりをしました
     ['どうじょうやぶりをしました。',doujouArt]
 
