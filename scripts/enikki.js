@@ -41,6 +41,7 @@ const fullArt = document.getElementById('full-art');
 const tomorrowArt = document.getElementById('tomorrow-art');
 const doujouArt = document.getElementById('doujou-art');
 const omawarisandeArt = document.getElementById('omawarisande-art');
+const sekaowaArt = document.getElementById('sekaowa-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -64,7 +65,7 @@ const itsu = [
     ['あつかった日に、',taiyoArt],
     ['さっき、',taiyoArt],
     ['たんじょうびに、',taiyoArt],
-    ['せかいがおわる日、',moonArt],
+    ['せかいがおわる日、',sekaowaArt],
     ['きのうの晩、',moonArt]
 ]
 const darede = [
@@ -85,7 +86,6 @@ const naniwoshimashita = [
     ['たっぷり寝ました。',sleepArt],
     ['おどりました。',danceArt],
     ['バランスをとりました。',balanceArt],
-    //TODO　どうじょうやぶりをしました
     ['どうじょうやぶりをしました。',doujouArt]
 
 ]

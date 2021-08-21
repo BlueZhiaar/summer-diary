@@ -72,6 +72,9 @@
 #omawarisande-art{
     visibility: hidden;
 }
+#sekaowa-art{
+    visibility: hidden;
+}
 /*
  <img class="center-top" id="sleepy-art" src="images/sleepy.svg" alt="">
           <img class="center-top" id="full-art" src="images/full.svg" alt="">
