@@ -42,6 +42,7 @@ const tomorrowArt = document.getElementById('tomorrow-art');
 const doujouArt = document.getElementById('doujou-art');
 const omawarisandeArt = document.getElementById('omawarisande-art');
 const sekaowaArt = document.getElementById('sekaowa-art');
+const bonhuaArt = document.getElementById('bonhua-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -93,7 +94,8 @@ const doudeshita = [
     ['たのしかったです。',tanoshiArt],
     ['ねむくなってしまいました。',sleepyArt],
     ['おなかいっぱいです。',fullArt],
-    ['あしたのことをかんがえました。',tomorrowArt]
+    ['あしたのことをかんがえました。',tomorrowArt],
+    ['ぼんやりふあんになりました',bonhuaArt]
 ]
 
 /*

@@ -75,6 +75,9 @@
 #sekaowa-art{
     visibility: hidden;
 }
+#bonhua-art{
+    visibility: hidden;
+}
 /*
  <img class="center-top" id="sleepy-art" src="images/sleepy.svg" alt="">
           <img class="center-top" id="full-art" src="images/full.svg" alt="">
