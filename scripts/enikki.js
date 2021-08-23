@@ -44,6 +44,7 @@ const omawarisandeArt = document.getElementById('omawarisande-art');
 const sekaowaArt = document.getElementById('sekaowa-art');
 const bonhuaArt = document.getElementById('bonhua-art');
 const sekainohateArt = document.getElementById('sekainohate-art');
+const kurorekishiArt = document.getElementById('kurorekishi-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -82,7 +83,6 @@ const dokoniitte = [
     ['モーターショーにいって',motorshowArt],
     ['さんちょうにいって',santyouArt],
     ['ちかすいみゃくにいって',tikasuimyakuArt],
-    //TODO せかいのはてにいって
     ['せかいのはてにいって',sekainohateArt]
 ]
 const naniwoshimashita = [
@@ -90,7 +90,8 @@ const naniwoshimashita = [
     ['たっぷり寝ました。',sleepArt],
     ['おどりました。',danceArt],
     ['バランスをとりました。',balanceArt],
-    ['どうじょうやぶりをしました。',doujouArt]
+    ['どうじょうやぶりをしました。',doujouArt],
+    ['くろれきしをほりおこしました。',kurorekishiArt]
 
 ]
 const doudeshita = [
