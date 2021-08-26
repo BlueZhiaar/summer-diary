@@ -6,6 +6,7 @@ const inputMonth = document.getElementById('input-month');
 const inputDay = document.getElementById('input-day');
 const inputfp = document.getElementById('input-fp');
 const secondChildSpace = document.getElementById('second-child-space');
+//月日のスタイルを取得
 
 //結果に選ばれた言葉を格納する
 let itsuResult;
@@ -45,6 +46,7 @@ const sekaowaArt = document.getElementById('sekaowa-art');
 const bonhuaArt = document.getElementById('bonhua-art');
 const sekainohateArt = document.getElementById('sekainohate-art');
 const kurorekishiArt = document.getElementById('kurorekishi-art');
+const kodokuArt = document.getElementById('kodoku-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -99,14 +101,10 @@ const doudeshita = [
     ['ねむくなってしまいました。',sleepyArt],
     ['おなかいっぱいです。',fullArt],
     ['あしたのことをかんがえました。',tomorrowArt],
-    ['ぼんやりふあんになりました',bonhuaArt]
+    ['ぼんやりふあんになりました',bonhuaArt],
+    ['こどくをかんじました',kodokuArt]
 ]
 
-/*
-const test = document.createElement('h3');
-test.innerText = 'testだよ';
-mainSpace.appendChild(test);
-*/
 
 //リロード
 function doReload(){
@@ -147,6 +145,10 @@ writeButton.onclick = () => {
     dokoniitteResult = ranElement(dokoniitte);
     naniwoshimashitaResult = ranElement(naniwoshimashita);
     doudeshitaResult = ranElement(doudeshita);
+    //月日の文字の方向を変える
+   
+   
+
     //文章を表示
     line6.innerText= month + '月' + day + '日';
     line5.innerText = itsuResult[0] + im;

@@ -84,6 +84,9 @@
 #kurorekishi-art{
     visibility: hidden;
 }
+#kodoku-art{
+    visibility: hidden;
+}
 /*
  <img class="center-top" id="sleepy-art" src="images/sleepy.svg" alt="">
           <img class="center-top" id="full-art" src="images/full.svg" alt="">
@@ -178,30 +181,40 @@ body{
     height: 338px;
     border-left: 2px solid rgb(0,0,0);
     border-bottom: 2px solid rgb(0,0,0);
-    writing-mode: vertical-rl;
+    
     text-orientation: upright;
     border-top: 2.0px solid rgb(0,0,0);
 }
 #line6{
     border-left: 0.5px solid rgb(0,0,0);
     border-right: 2.0px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
 }
 
 #line5{
     border-left: 0.5px solid rgb(0,0,0);
     border-right: 0.5px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
 }
 #line4{
     border-left: 0.5px solid rgb(0,0,0);
     border-right: 0.5px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
 }
 #line3{
     border-left: 0.5px solid rgb(0,0,0);
     border-right: 0.5px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
 }
 #line2{
     border-left: 0.5px solid rgb(0,0,0);
     border-right: 0.5px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
+}
+#line1{
+    border-left: 0.5px solid rgb(0,0,0);
+    border-right: 0.5px solid rgb(0,0,0);
+    writing-mode: vertical-rl;
 }
 
 .right-top{
