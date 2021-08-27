@@ -48,6 +48,7 @@ const sekainohateArt = document.getElementById('sekainohate-art');
 const kurorekishiArt = document.getElementById('kurorekishi-art');
 const kodokuArt = document.getElementById('kodoku-art');
 const himituArt = document.getElementById('himitu-art');
+const yakusokunotiArt = document.getElementById('yakusokunoti-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -87,7 +88,8 @@ const dokoniitte = [
     ['モーターショーにいって',motorshowArt],
     ['さんちょうにいって',santyouArt],
     ['ちかすいみゃくにいって',tikasuimyakuArt],
-    ['せかいのはてにいって',sekainohateArt]
+    ['せかいのはてにいって',sekainohateArt],
+    ['やくそくのちにいって',yakusokunotiArt]
 ]
 const naniwoshimashita = [
     ['ごはんを食べました。',gohanArt],
