@@ -49,6 +49,7 @@ const kurorekishiArt = document.getElementById('kurorekishi-art');
 const kodokuArt = document.getElementById('kodoku-art');
 const himituArt = document.getElementById('himitu-art');
 const yakusokunotiArt = document.getElementById('yakusokunoti-art');
+const sekaidaitouryouArt = document.getElementById('sekaidaitouryou-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -73,7 +74,8 @@ const itsu = [
     ['さっき、',taiyoArt],
     ['たんじょうびに、',taiyoArt],
     ['せかいがおわる日、',sekaowaArt],
-    ['きのうの晩、',moonArt]
+    ['きのうの晩、',moonArt],
+    ['せかいとういつがんねん、',sekaowaArt]
 ]
 const darede = [
     ['おかあさんで、',okaasandeArt],
@@ -81,19 +83,20 @@ const darede = [
     ['しんせきのひとたちで、',sinsekiArt],
     ['ほがらかなおじさんで、',hogaOjiArt],
     ['おまわりさんで、',omawarisandeArt],
-    ['ひみつけっしゃのめんばーで、',himituArt]
+    ['ひみつけっしゃのめんばーで、',himituArt],
+    ['せかいだいとうりょうで、',sekaidaitouryouArt]
 ]
 const dokoniitte = [
-    ['すいぞくかんにいって',suizokuArt],
-    ['モーターショーにいって',motorshowArt],
+  //  ['すいぞくかんにいって',suizokuArt],
+  //  ['モーターショーにいって',motorshowArt],
     ['さんちょうにいって',santyouArt],
-    ['ちかすいみゃくにいって',tikasuimyakuArt],
+  //  ['ちかすいみゃくにいって',tikasuimyakuArt],
     ['せかいのはてにいって',sekainohateArt],
     ['やくそくのちにいって',yakusokunotiArt]
 ]
 const naniwoshimashita = [
     ['ごはんを食べました。',gohanArt],
-    ['たっぷり寝ました。',sleepArt],
+  //  ['たっぷり寝ました。',sleepArt],
     ['おどりました。',danceArt],
     ['バランスをとりました。',balanceArt],
     ['どうじょうやぶりをしました。',doujouArt],
@@ -102,8 +105,8 @@ const naniwoshimashita = [
 ]
 const doudeshita = [
     ['たのしかったです。',tanoshiArt],
-    ['ねむくなってしまいました。',sleepyArt],
-    ['おなかいっぱいです。',fullArt],
+   // ['ねむくなってしまいました。',sleepyArt],
+   // ['おなかいっぱいです。',fullArt],
     ['あしたのことをかんがえました。',tomorrowArt],
     ['ぼんやりふあんになりました',bonhuaArt],
     ['こどくをかんじました',kodokuArt]

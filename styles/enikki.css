@@ -93,6 +93,10 @@
 #yakusokunoti-art{
     visibility: hidden;
 }
+#sekaidaitouryou-art{
+    visibility: hidden;
+}
+
 /*bodyの設定*/
 body{
     background-color: #e0ebaf;
