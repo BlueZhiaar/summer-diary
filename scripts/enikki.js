@@ -47,6 +47,7 @@ const bonhuaArt = document.getElementById('bonhua-art');
 const sekainohateArt = document.getElementById('sekainohate-art');
 const kurorekishiArt = document.getElementById('kurorekishi-art');
 const kodokuArt = document.getElementById('kodoku-art');
+const himituArt = document.getElementById('himitu-art');
 //文章の中身
 const line1 = document.getElementById('line1Content');
 const line2 = document.getElementById('line2Content');
@@ -78,7 +79,8 @@ const darede = [
     ['おとうさんで、',otousandeArt],
     ['しんせきのひとたちで、',sinsekiArt],
     ['ほがらかなおじさんで、',hogaOjiArt],
-    ['おまわりさんで',omawarisandeArt]
+    ['おまわりさんで、',omawarisandeArt],
+    ['ひみつけっしゃのめんばーで、',himituArt]
 ]
 const dokoniitte = [
     ['すいぞくかんにいって',suizokuArt],

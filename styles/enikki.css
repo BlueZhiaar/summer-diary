@@ -87,11 +87,9 @@
 #kodoku-art{
     visibility: hidden;
 }
-/*
- <img class="center-top" id="sleepy-art" src="images/sleepy.svg" alt="">
-          <img class="center-top" id="full-art" src="images/full.svg" alt="">
-          <img class="center-top" id="tomorrow-art" src="images/tomorrow.svg" alt=""> 
-*/
+#himitu-art{
+    visibility: hidden;
+}
 
 /*bodyの設定*/
 body{
