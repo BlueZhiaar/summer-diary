@@ -159,7 +159,7 @@ body{
     height: 340px;
     margin: 10px;
     top: 5px;
-    left: 2px;
+    left: 0px;
     right: 20px;
     z-index: 0;
 }
@@ -221,7 +221,7 @@ body{
     writing-mode: vertical-rl;
 }
 #line1{
-    border-left: 0.5px solid rgb(0,0,0);
+    border-left: 2.0px solid rgb(0,0,0);
     border-right: 0.5px solid rgb(0,0,0);
     writing-mode: vertical-rl;
 }
@@ -250,10 +250,10 @@ body{
     position: absolute;
     visibility: visible;
     z-index: 1;
-    width: 270px;
-    height: 350px;
+    width: 210px;
+    height: 370px;
     top: 50px;
-    left: -20px;
+    left: 0px;
 }
 .right-bottom{
     position: absolute;
@@ -269,8 +269,8 @@ body{
     visibility: visible;
     z-index: 1;
     width: 300px;
-    height: 230px;
-    top: -40px;
+    height: 190px;
+    top: -20px;
     left: 150px;
 }
 .twitter-hashtag-button{

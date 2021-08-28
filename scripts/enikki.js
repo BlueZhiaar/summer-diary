@@ -96,7 +96,7 @@ const dokoniitte = [
     ['せかいのはてにいって',sekainohateArt],
     ['やくそくのちにいって',yakusokunotiArt],
     ['かせんじきにいって',kasenjikiArt],
-    ['スカイツリーのちょうじょうにいって',skytopArt]
+    ['スカイツリーのてっぺんにいって',skytopArt]
 ]
 const naniwoshimashita = [
     ['ごはんを食べました。',gohanArt],
@@ -112,8 +112,8 @@ const doudeshita = [
    // ['ねむくなってしまいました。',sleepyArt],
    // ['おなかいっぱいです。',fullArt],
     ['あしたのことをかんがえました。',tomorrowArt],
-    ['ぼんやりふあんになりました',bonhuaArt],
-    ['こどくをかんじました',kodokuArt]
+    ['ぼんやりふあんになりました。',bonhuaArt],
+    ['こどくをかんじました。',kodokuArt]
 ]
 
 
