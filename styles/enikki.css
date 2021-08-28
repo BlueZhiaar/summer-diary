@@ -7,11 +7,9 @@
     z-index: 0;
     width: 250px;
     height: 250px;
-    
-}
-#me-art{
     visibility: visible;
 }
+/*画像は非表示。選択された時のみ表示する*/
 #taiyo-art{
     visibility: hidden;
 }
@@ -106,7 +104,7 @@
 body{
     background-color: #e0ebaf;
 }
-/*画像を非表示で一度読み込む*/
+/*最初画像を非表示で一度すべて読み込む*/
 .first-read{
     display: none;
 }
@@ -225,7 +223,7 @@ body{
     border-right: 0.5px solid rgb(0,0,0);
     writing-mode: vertical-rl;
 }
-
+/*絵を表示する位置によってクラス分けして管理*/
 .right-top{
     position: absolute;
     visibility: visible;
@@ -273,9 +271,7 @@ body{
     top: -20px;
     left: 150px;
 }
-.twitter-hashtag-button{
-    visibility: visible;
-}
+
 #enikki-space{
     visibility: visible;
 }

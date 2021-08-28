@@ -6,7 +6,6 @@ const inputMonth = document.getElementById('input-month');
 const inputDay = document.getElementById('input-day');
 const inputfp = document.getElementById('input-fp');
 const secondChildSpace = document.getElementById('second-child-space');
-//月日のスタイルを取得
 
 //結果に選ばれた言葉を格納する
 let itsuResult;
@@ -68,7 +67,7 @@ const reloadButton = document.getElementById('reload-button');
 
 
 //配列の宣言
-//。入れず15文字まで
+//コメントアウトした項目は項目を増やした時のバランス調整に使用
 
 const itsu = [
     ['きょうは、',taiyoArt],
@@ -129,18 +128,16 @@ reloadButton.onclick = () => {
 
 writeButton.onclick = () => {
     let result;
-    console.log('押された');
     const month = inputMonth.value;
     const day = inputDay.value;
     const im = inputfp.value + 'と';
     if(month.length === 0 || day.length === 0 || inputfp.value.length === 0){
         //入力が空の時は処理を終了する
-        console.log('空です');
         alert('空欄があります');
         return;
     }
     if(month.match(/^[0-9]*$/) && day.match(/^[0-9]*$/)){
-        console.log('月日は半角数字');
+       // console.log('月日は半角数字');
     }else{
         alert('月日は半角数字で入力してください');
         return;
@@ -178,12 +175,13 @@ writeButton.onclick = () => {
     visibleArt(doudeshitaResult);
     //test
     //console.log(itsu[0][1]);
-   
+   /*
     console.log(itsuResult);
     console.log(daredeResult);
     console.log(dokoniitteResult);
     console.log(naniwoshimashitaResult);
     console.log(doudeshitaResult);
+    */
 
 
     //TODO ツイートエリアの作成
@@ -209,7 +207,7 @@ tweetSpace.appendChild(anchor);
 const s = document.createElement('script');
 s.setAttribute('src','https://platform.twitter.com/widgets.js');
 tweetSpace.appendChild(s);
-console.log(s);
+//console.log(s);
 }
 
 /**
@@ -221,7 +219,7 @@ function ranElement(arrayName){
     const arrayLength = arrayName.length;
     let selectedWord;
     selectedWord = arrayName[Math.floor(Math.random()*arrayLength)];
-    console.log('selectedWord:' + selectedWord);
+    //console.log('selectedWord:' + selectedWord);
     return selectedWord;
 }
 
@@ -233,23 +231,6 @@ function visibleArt(selectedElement){
     selectedElement[1].style.visibility = 'visible';
 }
 
-//右上の言葉を渡すと絵の情報が帰ってくる
-//配列の何番目なのかを判明させてその添え字で表示する絵を決定したい
 
 
 
-//テスト  visibility: visible;
-/*console.log(getArtIdName(rightTop));
-getArtIdName(rightTop).style.visibility = 'visible';
-*/
-
-/**
- * TODO　画像サイズの調整
- * TODO　ツイートボタンにスクショをつける
- * TODO　OGP（Open Graph Protocol、オープン・グラフ・プロトコル）の設定
- * TODO　半角数字以外ではエラーを出す
- * TODO　薄い絵を濃く書き直す
- * TODO　文字を大きくする
- * TODO 絵日記の線を整える
- *　TODO ファビコン
- */
